@@ -3,7 +3,7 @@ const request = require("supertest");
 const app = require("./server"); // fichier principal s'appelle "server.js"
 
 // Configuration de la base de données de test
-const testDBUrl =  "mongodb+srv://dbJean:x0JNbBUUNJ01cvYg@mongo.df6smj9.mongodb.net/testDb?retryWrites=true&w=majority";
+const testDBUrl = "mongodb+srv://username:motdepasse@mongo.df6smj9.mongodb.net/Node-Api?retryWrites=true&w=majority"
 
 
 beforeAll(async () => {
