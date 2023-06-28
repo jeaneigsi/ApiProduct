@@ -91,7 +91,7 @@ mongoose.set("strictQuery", false);
 // Connexion à la base de données MongoDB
 mongoose
   .connect(
-  "mongodb+srv://dbJean:x0JNbBUUNJ01cvYg@mongo.df6smj9.mongodb.net/Node-Api?retryWrites=true&w=majority"
+  "mongodb+srv://username:motdepasse@mongo.df6smj9.mongodb.net/Node-Api?retryWrites=true&w=majority"
   )  
   .then(() => {
     // Démarrage du serveur Express
